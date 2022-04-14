@@ -33,9 +33,7 @@ public class ServiceController {
     }
 
     @GetMapping("/productUrl")
-    public Product getProductUrl(){
-        return new Product(productUrl, productDescription);
-    }
+    public String getProductUrl(){ return productUrl; }
 
     @GetMapping("/productmetadata")
     public ProductMetadata getMetadata() {
