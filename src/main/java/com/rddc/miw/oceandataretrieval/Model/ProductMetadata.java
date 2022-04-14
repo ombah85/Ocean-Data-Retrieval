@@ -1,7 +1,5 @@
 package com.rddc.miw.oceandataretrieval.Model;
 
-import java.time.LocalDate;
-
 public class ProductMetadata {
 
     private final String extent;

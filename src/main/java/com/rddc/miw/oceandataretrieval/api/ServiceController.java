@@ -29,7 +29,7 @@ public class ServiceController {
 
     @GetMapping("/")
     public String getServiceDescription(){
-        return "Ocean Data Retrieval";
+        return "Ocean Data Retrieval Service";
     }
 
     @GetMapping("/productUrl")
